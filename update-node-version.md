@@ -1,3 +1,5 @@
+### Use this guide to update your Drosera Trap and Operators with each release.
+
 # 1. Update Drosera CLI (Droseraup)
 ### 1. Download and install new CLI release
 ```bash
@@ -31,8 +33,8 @@ curl -LO https://github.com/drosera-network/releases/releases/download/v1.23.1/d
 # Install
 tar -xvf drosera-operator-v1.23.1-x86_64-unknown-linux-gnu.tar.gz
 ```
-* Currently the Operator CLI version is `v1.23.1`. Verify the latest version [here](https://github.com/drosera-network/releases/releases)
-* You have to get the link of `drosera-operator-v1.x.x-x86_64-unknown-linux-gnu.tar.gz`
+* Currently the latest Operator CLI version is `v1.23.1`. Verify the latest version [here](https://github.com/drosera-network/releases/releases)
+* You have to get the link of `drosera-operator-v1.x.x-x86_64-unknown-linux-gnu.tar.gz` and replace the existing url in `curl -LO` command with the new release url
 
 Test the CLI with `./drosera-operator --version` to verify it's working.
 ```console

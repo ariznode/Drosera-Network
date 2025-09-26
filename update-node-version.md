@@ -1,9 +1,26 @@
+# 1. Update Drosera CLI (Droseraup)
+### 1. Download and install new CLI release
+```bash
+curl -L https://app.drosera.io/install | bash
+```
+```bash
+source /root/.bashrc
+```
+```bash
+droseraup
+```
 
+### 2. Re-Apply Drosera Configurations
+```bash
+DROSERA_PRIVATE_KEY=xxx drosera apply
+```
+* Replace `xxx` with your trap's Private Key.
+* Enter `ofc`, when prompted.
 
+---
 
-
-# Update Operator
-### 1. Download and install new release
+# 2. Update Operator
+### 1. Download and install new Operator release
 ```bash
 cd ~
 ```
@@ -56,3 +73,14 @@ docker compose up -d
 ```bash
 docker compose logs -f
 ```
+* You will get errors initially
+
+![image](https://github.com/user-attachments/assets/c4af432a-cb30-412a-abe4-0e5d0fd5f6ac)
+
+* After a few mintues, you'll get healthy logs:
+
+![image](https://github.com/user-attachments/assets/418229a7-5462-46bd-b81f-a18996a3c822)
+
+Then, Your operators will produce Green Blocks, bro. Congratz.
+![image](https://github.com/user-attachments/assets/669b4048-3952-4079-95e1-58dd279e194c)
+

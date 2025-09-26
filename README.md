@@ -5,7 +5,7 @@ In this Guide, we contribute to Drosera testnet by:
 3. Deploying a Trap on testnet
 4. Connecting an operator to the Trap
 
-#
+---
 
 # Recommended System Requirements
 * 2 CPU Cores
@@ -14,14 +14,14 @@ In this Guide, we contribute to Drosera testnet by:
 * Get started with a low-budget `VPS` for as low as $5! [Purchase here](https://my.hostbrr.com/order/forms/a/NTMxNw==)
 * Create your own `Ethereum Hoodi RPC` in [Alchemy](https://dashboard.alchemy.com/) or [QuickNode](https://dashboard.quicknode.com/).
 
-#
+---
 
 # Existing Holesky user
 If you have deployed your trap and operator on Holesky network, move them to Hoodi network by following [Update To Hoodi](./update-to-hoodi.md)
 
-#
+---
 
-### Install Dependecies
+# Install Dependecies
 ```
 sudo apt-get update && sudo apt-get upgrade -y
 ```

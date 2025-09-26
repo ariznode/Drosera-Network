@@ -16,6 +16,11 @@ In this Guide, we contribute to Drosera testnet by:
 
 ---
 
+# Existing Hoodi users
+If you already have deployed your trap and operator on Hoodi network, and only want to update it to new release version, follow [Update node version](./update-node-version.md)
+
+---
+
 # Existing Holesky user
 If you have deployed your trap and operator on Holesky network, move them to Hoodi network by following [Update To Hoodi](./update-to-hoodi.md)
 

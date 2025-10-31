@@ -7,6 +7,7 @@ In this Guide, we contribute to Drosera testnet by:
 
 ---
 
+
 # Recommended System Requirements
 * 2 CPU Cores
 * 4 GB RAM

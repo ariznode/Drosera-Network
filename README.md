@@ -5,6 +5,7 @@ In this Guide, we contribute to Drosera testnet by:
 3. Deploying a Trap on testnet
 4. Connecting an operator to the Trap
 
+
 ---
 
 
